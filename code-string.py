@@ -279,6 +279,8 @@ if __name__ == "__main__":
         .exclude("*.js.map") \
         .exclude("*.css.map") \
         .exclude("test/**") \
+        .exclude("README.md") \
+        .exclude("angular.json") \
         .generate()
 
     # Instead of creating new paths objects, reuse the same one

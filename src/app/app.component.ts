@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { NurbsCurveComponent } from "./curve-drawing/nurbs-curve.component";
+import { NurbsComponent } from "./component/nurbs.component";
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,6 @@ import { NurbsCurveComponent } from "./curve-drawing/nurbs-curve.component";
     <nurbs-curve style="width: 800px; height: 600px;"></nurbs-curve>
   `,
   standalone: true,
-  imports: [NurbsCurveComponent]
+  imports: [NurbsComponent]
 })
 export class AppComponent {}
